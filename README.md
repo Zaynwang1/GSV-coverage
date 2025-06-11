@@ -75,7 +75,7 @@ python full_functions.py \
 | --------------- | ------------------------------------------------------------------------------------------------- |
 | `--gz_path`     | Path to the input GSV metadata CSV.gz file.                                                       |
 | `--city_name`   | Full city name for OSM geocoding (e.g. `"Austin, Texas, USA"`).                                  |
-| `--state_fips`  | Two-digit state FIPS code (e.g. `53` for Washington).                                              |
+| `--state_fips`  | Two-digit state FIPS code (e.g. `53` for Washington).                                            |
 | `--county_fips` | (Block-group only) Three-digit county FIPS code (e.g. `033` for King County).                    |
 | `--acs_api`     | Your U.S. Census ACS API key (register at https://api.census.gov/data/key_signup.html).          |
 | `--output_path` | File path for the output GeoJSON (will be written in EPSG:3857).                                  |
