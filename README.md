@@ -1,2 +1,28 @@
-# GSV-coverage
-Accessing the Visibility Gap in Google Street View’s Urban Digital Landscape
+## GSV Coverage Summaries
+
+This repository provides a simple Python script to generate Google Street View (GSV) image‐capture summaries enriched with U.S. Census ACS demographic data. It supports both census‐tract and block‐group geographies, and lets you specify any city (by name) and FIPS codes at runtime—and requires you to supply your own ACS API key.
+
+---
+
+## Features
+
+- **Tract-level summaries**  
+  Computes average image staleness (in years), dominant season, and road-type metrics for each census tract in your chosen city, and joins on key ACS variables (e.g., population, median income, mode shares).
+
+- **Block-group-level summaries**  
+  The same set of metrics, but aggregated at the census block-group level (requires county FIPS).
+
+- **No hard-coded keys or cities**  
+  All inputs—including your ACS API key, the GSV metadata file, city name, and FIPS codes—are passed via command-line arguments.
+
+- **GeoJSON output**  
+  Writes an EPSG:3857 GeoJSON file ready for mapping or GIS analyses.
+
+---
+
+## Installation
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/yourusername/gsv-coverage.git
+   cd gsv-coverage
