@@ -26,3 +26,17 @@ This repository provides a simple Python script to generate Google Street View (
    ```bash
    git clone https://github.com/yourusername/gsv-coverage.git
    cd gsv-coverage
+   ```
+
+2.	**Create a virtual environment (optional but recommended)**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install pandas geopandas shapely osmnx requests
+   ```
+
+
