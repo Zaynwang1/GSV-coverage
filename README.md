@@ -5,7 +5,6 @@ This repository provides a Python script to generate Google Street View (GSV) im
 ---
 
 ## Features
-a
 **Tract-level summaries**  
 Computes average image staleness (in years), dominant season, and road-type metrics for each census tract in your chosen city, and joins on key ACS variables (e.g., population, median income, mode shares).
 
