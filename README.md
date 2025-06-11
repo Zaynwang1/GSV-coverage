@@ -1,6 +1,6 @@
 # GSV Coverage Summaries
 
-This repository provides a simple Python script to generate Google Street View (GSV) image‐capture summaries enriched with U.S. Census ACS demographic data. It supports both census‐tract and block‐group geographies, and lets you specify any city (by name) and FIPS codes at runtime—and requires you to supply your own ACS API key.
+This repository provides a Python script to generate Google Street View (GSV) image‐capture summaries enriched with U.S. Census ACS demographic data. It supports both census‐tract and block‐group geographies, and lets you specify any city (by name) and FIPS codes at runtime—and requires you to supply your own ACS API key.
 
 ---
 
