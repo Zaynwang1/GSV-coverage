@@ -15,7 +15,7 @@ The same set of metrics, but aggregated at the census block-group level (require
 All inputs—including your ACS API key, the GSV metadata file, city name, and FIPS codes—are passed via command-line arguments.
 
 **GeoJSON output**  
-Writes an EPSG:3857 GeoJSON file ready for mapping or GIS analyses.
+Writes an EPSG:3857 GeoJSON file ready for mapping or analyses.
 
 ---
 
