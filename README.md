@@ -82,6 +82,7 @@ python full_functions.py \
 | `--year`        | ACS year to pull (default: `2023`).                                                              |
 | `--level`       | `tract` or `blockgroup` (default: `tract`).                                                      |
 
+* FIPS code can be found at: https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt
 ---
 
 ## Functions
